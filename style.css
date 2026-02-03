@@ -6,17 +6,24 @@
 body {
   background-color: aliceblue;
   text-align: center;
-  color: navy;
+  color: rgb(0, 0, 0);
   margin: auto;
-  font-family: water;
-}
+ font-family: "Luckiest Guy", cursive;
+  font-size:x-large;
+  color:rgb(255, 251, 0);
+  text-shadow: 
+    -1px -1px 0 black,  /* Top-left shadow */
+     1px -1px 0 black,  /* Top-right shadow */
+    -1px  1px 0 black,  /* Bottom-left shadow */
+     1px  1px 0 black;  /* Bottom-right shadow */
+}    
 
 h1{
   font-size: 30px;
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url("360_F_571412508_hcNaMjLEQ55Ywc1BYfkgJH1KoVDKiuYy.jpg");
   background-size: 600px 400px;
   border-radius: 300px;
   border: 5px solid white;

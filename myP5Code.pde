@@ -19,9 +19,9 @@ mouseClicked = function(){
 
 //🟡drawFish Function - will run when called
 var drawFish = function(fishX, fishY, fishColor){
-  textSize(80);
+  textSize(40);
   fill(fishColor);
-  text("𓆝", fishX, fishY);
+  text("👻", fishX, fishY);
 };
 
 
