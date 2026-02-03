@@ -1,21 +1,11 @@
-@font-face{
-  font-family: water;
-  src: url("https://cdn.glitch.global/97f7bbb3-2cd9-4b34-bbf2-d0a28c71f10b/Water%20Park.ttf?v=1738683075854");
-}
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 
 body {
   background-color: aliceblue;
   text-align: center;
   color: rgb(0, 0, 0);
   margin: auto;
- font-family: "Luckiest Guy", cursive;
-  font-size:x-large;
-  color:rgb(255, 251, 0);
-  text-shadow: 
-    -1px -1px 0 black,  /* Top-left shadow */
-     1px -1px 0 black,  /* Top-right shadow */
-    -1px  1px 0 black,  /* Bottom-left shadow */
-     1px  1px 0 black;  /* Bottom-right shadow */
+  font-family: 'Frijole', cursive;
 }    
 
 h1{
