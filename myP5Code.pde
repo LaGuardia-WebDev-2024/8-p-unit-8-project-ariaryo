@@ -9,18 +9,37 @@ draw = function(){
 
 };
 
-//🟢mouseClicked Function - will run when mouse is clicked
+//mouseClicked Function 
 mouseClicked = function(){
-    drawGhost(mouseX, mouseY, color(random(255), random(255), random(255)));
+    var randomCharacter = random(100);
+    var randomSize = random(5, 100);
+    
+    if(randomCharacter < 33){
+        drawGhost(mouseX, mouseY, randomSize);
+    } else if(randomCharacter < 66){
+        drawOni(mouseX, mouseY, randomSize);
+    } else {
+        drawZombie(mouseX, mouseY, randomSize);
+    }
 }
 
-//🟡drawGhost Function - will run when called
-var drawGhost = function(ghostX, ghostY, ghostColor){
-  textSize(40);
-  fill(ghostColor);
+//drawGhost Function 
+var drawGhost = function(ghostX, ghostY, ghostSize){
+  textSize(ghostSize);
   text("👻", ghostX, ghostY);
 };
 
+//drawOni Function  
+var drawOni = function(onix, oniy, oniSize){
+  textSize(oniSize);
+  text("👹", onix, oniy);
+};
+
+//drawZombie Function 
+var drawZombie = function(zombieX, zombieY, zombieSize){
+  textSize(zombieSize);
+  text("🧟‍♀️", zombieX, zombieY);
+};
 
 
 
