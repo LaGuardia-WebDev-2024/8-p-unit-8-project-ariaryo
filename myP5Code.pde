@@ -12,11 +12,11 @@ draw = function(){
 //mouseClicked Function 
 mouseClicked = function(){
     var randomCharacter = random(100);
-    var randomSize = random(5, 100);
+    var randomSize = random(5, 70);
     
-    if(randomCharacter < 33){
+    if(randomCharacter < 33.333333333333){
         drawGhost(mouseX, mouseY, randomSize);
-    } else if(randomCharacter < 66){
+    } else if(randomCharacter < 66.666666666666){
         drawOni(mouseX, mouseY, randomSize);
     } else {
         drawZombie(mouseX, mouseY, randomSize);
